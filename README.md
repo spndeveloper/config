@@ -51,3 +51,7 @@ git branch --merged
 # Delete branch
 git branch -d {branch}
 git branch -D {branch} = force delete
+# FETCH
+checking file update
+# PULL
+getting file update
