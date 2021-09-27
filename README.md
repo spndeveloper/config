@@ -44,6 +44,7 @@ git alias {initial}="{command}"
 git checkout {5 digit id}
 # Change branch
 git checkout {branch}
+git checkout -b {newbranch}
 # Joining branch
 git merge
 # Check merge
