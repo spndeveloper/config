@@ -22,3 +22,32 @@ ssh-add {dir}/{name}
 close {url}
 # Add remote
 remote add {name} {url}
+#######################
+##### GIT COMMAND #####
+#######################
+# Initial
+git init
+# Adding Remote
+git remote add {initial} {branch} {url}
+# Remote check
+git remote -v
+# Remote delete
+git remote rm {initial}
+# Log
+git log
+git log --all --decorate --oneline --graph
+# Add branch & check
+git branch {name}
+# Creating alias
+git alias {initial}="{command}"
+# Getting commit
+git checkout {5 digit id}
+# Change branch
+git checkout {branch}
+# Joining branch
+git merge
+# Check merge
+git branch --merged
+# Delete branch
+git branch -d {branch}
+git branch -D {branch} = force delete
