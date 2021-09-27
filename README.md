@@ -18,3 +18,7 @@ setting -> ssh and gpg key
 eval $(ssh-agent)
 # Adding key to workspace
 ssh-add {dir}/{name}
+# Cloning file
+close {url}
+# Add remote
+remote add {name} {url}
